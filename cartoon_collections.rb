@@ -14,12 +14,12 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 def find_the_cheese(potentially_cheesy_items)
-  chesses = %w[gouda chedder camembert]
+  chesses = %w[gouda cheddar camembert]
 
   potentially_cheesy_items.find do |mabye_cheese|
     chesses.include?(mabye_cheese)
   end
 end
 
-#find_the_cheese(potentially_cheesy_items)
+find_the_cheese(potentially_cheesy_items)
 binding.pry
